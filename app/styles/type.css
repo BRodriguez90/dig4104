@@ -1,0 +1,52 @@
+.intro{
+  width:100%;
+  height:100vh;
+  border-bottom:1px solid gray;
+}
+
+h1{
+  padding-top:10%;
+  margin-bottom:auto;
+  font-family: 'Cabin Sketch', cursive;
+  /*font-size:5em;*/
+  text-align:center;
+}
+section{
+  width:500%;
+  height:100vh;
+}
+button{
+  width:100px;
+  height:40px;
+  font-size:1em;
+  border:none;
+  border:1px solid black;
+}
+
+/*       Letter Typing Effect         */
+.line-1{
+    position: relative;
+    top: 40%;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 300%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+} 
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
