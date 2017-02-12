@@ -1,6 +1,7 @@
+/* Chart */
 div.graph{
   /*margin-top:150px;*/
-  padding: 0 15%;
+  padding: 0 10%;
 }
 .chart rect{
   /*stroke-dashoffset:1600;
@@ -27,3 +28,22 @@ div.graph{
    svg g rect:hover{
     fill:white !important;
   }
+
+/* Navigation*/
+div.section{
+  width:100%;
+  height:100vh !important;
+  box-sizing: content-box;
+}
+div.education{
+  background-color: #fcb052 !important;
+}
+div.skills{
+  background-color: #2e5367
+}
+div.contact{
+  background-color: #f06a59;
+}
+div.page_container{
+
+}

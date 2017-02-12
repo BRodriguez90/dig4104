@@ -2,16 +2,18 @@
   width:100%;
   height:100vh;
   border-bottom:1px solid gray;
+  background-color: #2b334f;
 }
 
 h1{
-  padding-top:10%;
+  padding-top:8.5%;
   margin-bottom:auto;
-  font-family: 'Cabin Sketch', cursive;
-  /*font-size:5em;*/
+  font-family: 'Cabin Sketch', cursive !important;
+  /*font-size:3.5em;*/
   text-align:center;
+  color:#A4C9FF;
 }
-section{
+section.main{
   width:500%;
   height:100vh;
 }
@@ -30,12 +32,12 @@ button{
     width: 24em;
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 300%;
+    font-size: 325%;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
     transform: translateY(-50%);
-} 
+}
 
 /* Animation */
 .anim-typewriter{
@@ -44,7 +46,7 @@ button{
 }
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 24em;}
+  to{width: 13em;}/*24em*/
 }
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
